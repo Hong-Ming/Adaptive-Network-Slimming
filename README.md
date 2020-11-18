@@ -38,9 +38,9 @@ This Python program contains the code for the paper "Run Time Adaptive Network S
     - Graphics Cards: GeForce RTX 2080 Ti
     - OS: Ubuntu 18.04
 3. Setup the environment using **Anaconda** 
-   ```
+   ```sh
    conda create -n myenv python=3.6
-   conda install pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=10.0 -c pytorch
+   conda install --name myenv pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=10.0 -c pytorch
    ```
 3. This program stores the outputs and learned parameters in `Data/` to speed up implementation, run **cleanup** to cleanup those data
    ```
