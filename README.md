@@ -17,7 +17,7 @@ Please cite our paper if you use this code in your own work:
 ```
 
 ## Intorduction
-This MATLAB program contains the code for the paper "Graph learning and augmentation based interpolation of signal strength for location-aware communications" and code to perform Monta Carlo simulation. The code for the interpolator using Gaussian Process [2] and Kriging [3] are also included for comparison.
+This Python program contains the code for the paper "Run Time Adaptive Network Slimming for Mobile Environments" and the code for training the ResNet model. This program performs the interface stage pruning and conculates the pruning rate based on the saving in floating point operations (FLOP).
 
 ## Contents
 1. In `/`:
@@ -28,14 +28,23 @@ This MATLAB program contains the code for the paper "Graph learning and augmenta
     - **main.py**: main function for training model.
     
 ## Setup/Installation
-1. CVX [6] installed (Optional), you can use the solver in `BCD_Algorithm/` to run the code.
-2. Run **startup** to setup search paths and required directories.
+1. Package Version
+    - Python 3.6
+    - PyTorch 1.10
+    - Torchvision 0.3.0
+    - CUDA 10.0
+2. Hardware and Operation System
+    - CPU: Intel i7-8700 3.2GHz
+    - Graphics Cards: GeForce RTX 2080 Ti
+    - OS: Ubuntu 18.04
+3. Setup the environment using **Anaconda** 
    ```
-   >>startup
+   conda create -n myenv python=3.6
+   conda install pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=10.0 -c pytorch
    ```
 3. This program stores the outputs and learned parameters in `Data/` to speed up implementation, run **cleanup** to cleanup those data
    ```
-   >>cleanup
+   >>conda create -n myenv python=3.6
    ```
         
 ## Reference
