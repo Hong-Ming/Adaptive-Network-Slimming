@@ -23,7 +23,7 @@ This MATLAB program contains the code for the paper "Graph learning and augmenta
 1. In `/`:
     - **Adapted_Network.py**: main function for Adaptive Network Slimming. [1]
 2. In `model_pkl/`: 
-    - ***.pkl**: generate ground true power map.
+    - **\<model name>.pkl**: pretrained model file.
 3. In `train_model/` [5] : 
     - **main.py**: main function for training model.
     
