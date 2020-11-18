@@ -6,6 +6,7 @@ Code for training resnet models referenced from: [https://github.com/kuangliu/py
 #### Cite
 Please cite our paper if you use this code in your own work:
 
+```
 @inproceedings{chiu2019,
   author={Hong-Ming Chiu and Kuan-Chih Lin and Tian Sheuan Chang,
   booktitle={2019 IEEE International Symposium on Circuits and Systems (ISCAS)}, 
