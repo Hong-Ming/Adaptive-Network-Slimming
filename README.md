@@ -24,7 +24,7 @@ This Python program contains the code for the paper "Run Time Adaptive Network S
     - **Adapted_Network.py**: main function for Adaptive Network Slimming. [1]
 2. In `model_pkl/`: 
     - **\<model name>.pkl**: pretrained model file.
-3. In `train_model/` [5] : 
+3. In `train_model/`
     - **main.py**: main function for training model.
     
 ## Setup/Installation
@@ -41,24 +41,15 @@ This Python program contains the code for the paper "Run Time Adaptive Network S
    ```sh
    conda create -n myenv python=3.6
    conda install --name myenv pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=10.0 -c pytorch
+   conda activate myenv
    ```
-3. This program stores the outputs and learned parameters in `Data/` to speed up implementation, run **cleanup** to cleanup those data
+3. Run network slimming model
    ```
-   >>conda create -n myenv python=3.6
+   $ python3 Adapted_Network.py
    ```
         
 ## Reference
 [1] Hong-Ming Chiu, Kuan-Chih Lin and Tian Sheuan Chang, “Run Time Adaptive Network Slimming for Mobile Environments,” 2019 IEEE International Symposium on Circuits and Systems (ISCAS).
-    
-[2] Ferris Brian, Hähnel Dirk and Fox Dieter, "Gaussian Processes for Signal Strength-Based Location Estimation," 2006.
-    
-[3] A. Serrano, B. Girault, and A. Ortega, "Geostatistical Data Interpolation using Graph Signal Spectral Prior," 2019.
-    
-[4] R. Di Taranto et al., "Location-aware communicationsfor 5g networks," IEEE Signal Processing Magazine, vol. 31, no. 6, pp. 102?112, 2014.
-    
-[5] H.E. Egilmez, E. Pavez, and A. Ortega, "Graph learn-ing from data under laplacian and structural constraints," IEEE Journal of Selected Topics in Signal processing, vol. 11, no. 6, pp. 825?841, 2017.
-    
-[6] Michael Grant and Stephen Boyd. CVX: Matlab software for disciplined convex programming, version 2.0 beta. http://cvxr.com/cvx, September 2013.
     
 ## Author/Conatact Info
 Name  : Hong-Ming, Chiu
