@@ -30,10 +30,10 @@ This Python program contains the code for the paper "Run Time Adaptive Network S
     
 ## Setup/Installation
 ### Package Version
-    - Python 3.6
-    - PyTorch 1.10
-    - Torchvision 0.3.0
-    - CUDA 10.0
+- Python 3.6
+- PyTorch 1.10
+- Torchvision 0.3.0
+- CUDA 10.0
 ### Hardware and Operation System
     - CPU: Intel i7-8700 3.2GHz
     - Graphics Cards: GeForce RTX 2080 Ti
