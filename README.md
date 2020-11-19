@@ -59,7 +59,7 @@ conda activate myenv
 python3 Adapted_Network.py -net resnet18
 ```
 use `-net` to select ResNet with defferent depth, available options
-    - resnet18
+  - resnet18
     - resnet34
     - resnet50
     - resnet101
