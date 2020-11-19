@@ -13,11 +13,12 @@ Please cite our paper if you use this code in your own work:
   title={Run Time Adaptive Network Slimming for Mobile Environments}, 
   year={2019},
   pages={1-4},
-  doi={10.1109/ISCAS.2019.8701884}}
+  doi={10.1109/ISCAS.2019.8701884}
+  }
 ```
 
 ## Intorduction
-This Python program contains the code for the paper "Run Time Adaptive Network Slimming for Mobile Environments" and the code for training the ResNet model. This program performs the interface stage pruning and conculates the pruning rate based on the saving in floating point operations (FLOP).
+This Python program contains the code for the paper "Run Time Adaptive Network Slimming for Mobile Environments" and the code for training the ResNet [2] model. This program performs the interface stage pruning and conculates the pruning rate based on the saving in floating point operations (FLOP).
 
 ## Contents
 1. In `/`:
@@ -28,16 +29,16 @@ This Python program contains the code for the paper "Run Time Adaptive Network S
     - **main.py**: main function for training model.
     
 ## Setup/Installation
-1. Package Version
+### Package Version
     - Python 3.6
     - PyTorch 1.10
     - Torchvision 0.3.0
     - CUDA 10.0
-2. Hardware and Operation System
+### Hardware and Operation System
     - CPU: Intel i7-8700 3.2GHz
     - Graphics Cards: GeForce RTX 2080 Ti
     - OS: Ubuntu 18.04
-3. Setup the environment using **Anaconda** 
+### Setup the environment using **Anaconda** 
    ```sh
    $ conda create -n myenv python=3.6
    $ conda install --name myenv pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=10.0 -c pytorch
@@ -49,7 +50,8 @@ This Python program contains the code for the paper "Run Time Adaptive Network S
    ```
         
 ## Reference
-[1] Hong-Ming Chiu, Kuan-Chih Lin and Tian Sheuan Chang, “Run Time Adaptive Network Slimming for Mobile Environments,” 2019 IEEE International Symposium on Circuits and Systems (ISCAS).
+[1] Hong-Ming Chiu, Kuan-Chih Lin and Tian Sheuan Chang, "Run Time Adaptive Network Slimming for Mobile Environments," 2019 IEEE International Symposium on Circuits and Systems (ISCAS).
+[2] Kaiming He and Xiangyu Zhang and Shaoqing Ren and Jian Sun, "Deep Residual Learning for Image Recognition," 2015.
     
 ## Author/Conatact Info
 Name  : Hong-Ming, Chiu
