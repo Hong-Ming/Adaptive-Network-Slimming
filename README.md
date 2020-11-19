@@ -33,6 +33,9 @@ This Python program contains the code for the paper "Run Time Adaptive Network S
     - **\<model name>.pkl**: pretrained model file.
 3. In `train_model/`
     - **main.py**: main function for training model.
+3. In `result/`
+    - **resnet18_uniform.png**: result of pruning ResNet18 with uniform pruning rate. 
+    - **resnet18_nonuniform.png**: result of pruning ResNet18 with non-uniform pruning rate. 
     
 ## Prerequisite and Setup
 ### Package Version
