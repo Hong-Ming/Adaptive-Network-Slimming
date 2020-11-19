@@ -19,7 +19,7 @@ Please cite our paper if you use this code in your own work:
 ## Table of Contents
 * [Intorduction](#intorduction)
 * [Contents](#contents)
-* [Setup/Installation](setup/installation)
+* [Setup/Installation](#setup/installation)
 
 ## Intorduction
 This Python program contains the code for the paper "Run Time Adaptive Network Slimming for Mobile Environments" and the code for training the ResNet [2] model. This program performs the interface stage pruning and conculates the pruning rate based on the saving in floating point operations (FLOP).
