@@ -56,9 +56,14 @@ conda activate myenv
 ```
 3. Run network slimming model
 ```sh
-python3 Adapted_Network.py
+python3 Adapted_Network.py -net resnet18
 ```
-        
+use `-net` to select ResNet with defferent depth, available options
+    - resnet18
+    - resnet34
+    - resnet50
+    - resnet101
+    - resnet152
 ## Reference
 [1] Hong-Ming Chiu, Kuan-Chih Lin and Tian Sheuan Chang, "Run Time Adaptive Network Slimming for Mobile Environments," 2019 IEEE International Symposium on Circuits and Systems (ISCAS).
 
