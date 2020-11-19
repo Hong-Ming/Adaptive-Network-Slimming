@@ -19,7 +19,9 @@ Please cite our paper if you use this code in your own work:
 ## Table of Contents
 * [Intorduction](#intorduction)
 * [Contents](#contents)
-* [Setup/Installation](#setup/installation)
+* [Prerequisite and Setup](#prerequisite-and-setup)
+* [Reference](#reference)
+* [Author](#author)
 
 ## Intorduction
 This Python program contains the code for the paper "Run Time Adaptive Network Slimming for Mobile Environments" and the code for training the ResNet [2] model. This program performs the interface stage pruning and conculates the pruning rate based on the saving in floating point operations (FLOP).
@@ -32,7 +34,7 @@ This Python program contains the code for the paper "Run Time Adaptive Network S
 3. In `train_model/`
     - **main.py**: main function for training model.
     
-## Setup/Installation
+## Prerequisite and Setup
 ### Package Version
 - Python 3.6
 - PyTorch 1.10
@@ -62,7 +64,7 @@ python3 Adapted_Network.py
 
 [2] Kaiming He and Xiangyu Zhang and Shaoqing Ren and Jian Sun, "Deep Residual Learning for Image Recognition," 2015.
     
-## Author/Conatact Info
+## Author
 Name  : Hong-Ming, Chiu
 
 Email : hongmingchiu2017@gmail.com
