@@ -16,6 +16,10 @@ Please cite our paper if you use this code in your own work:
   doi={10.1109/ISCAS.2019.8701884}
   }
 ```
+## Table of Contents
+* [Intorduction](#intorduction)
+* [Contents](#contents)
+* [Setup/Installation](setup/installation)
 
 ## Intorduction
 This Python program contains the code for the paper "Run Time Adaptive Network Slimming for Mobile Environments" and the code for training the ResNet [2] model. This program performs the interface stage pruning and conculates the pruning rate based on the saving in floating point operations (FLOP).
@@ -54,7 +58,7 @@ python3 Adapted_Network.py
 ```
         
 ## Reference
-[#1] Hong-Ming Chiu, Kuan-Chih Lin and Tian Sheuan Chang, "Run Time Adaptive Network Slimming for Mobile Environments," 2019 IEEE International Symposium on Circuits and Systems (ISCAS).
+[1] Hong-Ming Chiu, Kuan-Chih Lin and Tian Sheuan Chang, "Run Time Adaptive Network Slimming for Mobile Environments," 2019 IEEE International Symposium on Circuits and Systems (ISCAS).
 
 [2] Kaiming He and Xiangyu Zhang and Shaoqing Ren and Jian Sun, "Deep Residual Learning for Image Recognition," 2015.
     
