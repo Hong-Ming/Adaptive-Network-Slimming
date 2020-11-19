@@ -54,16 +54,20 @@ conda install --name myenv pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=10.0 -c
 ```sh
 conda activate myenv
 ```
-3. Run network slimming model
+3. Run network slimming model with uniform pruning rate
 ```sh
 python3 Adapted_Network.py -net resnet18
 ```
 use `-net` to select ResNet with defferent depth, available options
   - resnet18
-    - resnet34
-    - resnet50
-    - resnet101
-    - resnet152
+  - resnet34
+  - resnet50
+  - resnet101
+  - resnet152
+4. Use `--nonuniform` to run network slimming model with non-uniform pruning rate
+```sh
+python3 Adapted_Network.py -net resnet18 --nonuniform
+```
 ## Reference
 [1] Hong-Ming Chiu, Kuan-Chih Lin and Tian Sheuan Chang, "Run Time Adaptive Network Slimming for Mobile Environments," 2019 IEEE International Symposium on Circuits and Systems (ISCAS).
 
