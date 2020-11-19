@@ -40,15 +40,18 @@ This Python program contains the code for the paper "Run Time Adaptive Network S
 - OS: Ubuntu 18.04
 ### Environment setup
 1. Set up the environment using **Anaconda** 
-   ```sh
-   $ conda create -n myenv python=3.6
-   $ conda install --name myenv pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=10.0 -c pytorch
-   $ conda activate myenv
-   ```
+```sh
+$ conda create -n myenv python=3.6
+$ conda install --name myenv pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=10.0 -c pytorch
+```
+2. Activate conda environment
+```
+$ conda activate myenv
+```
 3. Run network slimming model
-   ```
-   $ python3 Adapted_Network.py
-   ```
+```
+$ python3 Adapted_Network.py
+```
         
 ## Reference
 [1] Hong-Ming Chiu, Kuan-Chih Lin and Tian Sheuan Chang, "Run Time Adaptive Network Slimming for Mobile Environments," 2019 IEEE International Symposium on Circuits and Systems (ISCAS).
