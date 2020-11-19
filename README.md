@@ -45,7 +45,7 @@ This Python program contains the code for the paper "Run Time Adaptive Network S
 - Graphics Cards: GeForce RTX 2080 Ti
 - OS: Ubuntu 18.04
 ### Environment setup
-1. Set up the environment using [Anaconda](https://www.anaconda.com/)
+1. Set up the environment using `[Anaconda](https://www.anaconda.com/)`
 ```sh
 conda create -n myenv python=3.6
 conda install --name myenv pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=10.0 -c pytorch
