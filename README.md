@@ -18,26 +18,26 @@ Please cite our paper if you use this code in your own work:
 ```
 ## Table of Contents
 * [Intorduction](#intorduction)
-* [Contents](#contents)
-* [Prerequisite and Setup](#prerequisite-and-setup)
+* [Directory Tree](#directory-tree)
+* [Setup and Usage](#setup-and-usage)
 * [Reference](#reference)
 * [Author](#author)
 
 ## Intorduction
 This Python program contains the code for the paper "Run Time Adaptive Network Slimming for Mobile Environments" and the code for training the ResNet [2] model. This program performs the interface stage pruning and conculates the pruning rate based on the saving in floating point operations (FLOP).
 
-## Contents
-1. In `/`:
+## Directory Tree
+- `/`:
     - **Adapted_Network.py**: main function for Adaptive Network Slimming. [1]
-2. In `model_pkl/`: 
+- `model_pkl/`: 
     - **\<model name>.pkl**: pretrained model file.
-3. In `train_model/`
+- `train_model/`
     - **main.py**: main function for training model.
-3. In `result/`
+- `result/`
     - **resnet18_uniform.png**: result of pruning ResNet18 with uniform pruning rate. 
     - **resnet18_nonuniform.png**: result of pruning ResNet18 with non-uniform pruning rate. 
     
-## Prerequisite and Setup
+## Setup and Usage
 ### Package Version
 - Python 3.6
 - PyTorch 1.10
@@ -57,8 +57,9 @@ conda install --name myenv pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=10.0 -c
 ```sh
 conda activate myenv
 ```
-3. Run network slimming model with uniform pruning rate.
-Use `-net` to select ResNet with defferent depth, available options are `resnet18`, `resnet34` and `resnet50`.
+### Usage
+1. Run network slimming model with uniform pruning rate.
+Use `-net` to select ResNet with different depth, available options are `resnet18`, `resnet34` and `resnet50`.
 ```sh
 python3 Adapted_Network.py -net resnet18
 ```
