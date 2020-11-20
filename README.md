@@ -58,11 +58,11 @@ conda install --name myenv pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=10.0 -c
 conda activate myenv
 ```
 3. Run network slimming model with uniform pruning rate.
-Use `-net` to select ResNet with defferent depth, available options are `resnet18` `resnet34` `resnet50` `resnet101` and `resnet152`
+Use `-net` to select ResNet with defferent depth, available options are `resnet18`, `resnet34` and `resnet50`.
 ```sh
 python3 Adapted_Network.py -net resnet18
 ```
-Use `--nonuniform` to run network slimming model with non-uniform pruning rate
+Use `--nonuniform` to run network slimming model with non-uniform pruning rate.
 ```sh
 python3 Adapted_Network.py -net resnet18 --nonuniform
 ```
