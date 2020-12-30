@@ -73,6 +73,8 @@ python3 Adapted_Network.py -net resnet18 --nonuniform
 [2] Kaiming He and Xiangyu Zhang and Shaoqing Ren and Jian Sun, "Deep Residual Learning for Image Recognition," 2015.
     
 ## Author
-Name  : Hong-Ming, Chiu
+Name  : Hong-Ming Chiu
 
 Email : hongmingchiu2017@gmail.com
+
+Website : [https://hong-ming.github.io](https://hong-ming.github.io/)
