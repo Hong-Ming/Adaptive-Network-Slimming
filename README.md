@@ -1,6 +1,6 @@
 # Run Time Adaptive Network Slimming for Mobile Environments
 
-#### Authors: [Hong-Ming, Chiu](https://hong-ming.github.io/), [Kuan-Chih Lin](), [Tian Sheuan Chang](https://eenctu.nctu.edu.tw/tw/teacher/p1.php?num=108&page=1)
+#### Authors: [Hong-Ming Chiu](https://hong-ming.github.io/), [Kuan-Chih Lin](), [Tian Sheuan Chang](https://eenctu.nctu.edu.tw/tw/teacher/p1.php?num=108&page=1)
 #### [Link to Paper](https://ieeexplore.ieee.org/document/8701884)
 Code for training resnet models referenced from: [https://github.com/kuangliu/pytorch-cifar](https://github.com/kuangliu/pytorch-cifar)
 #### Cite
@@ -75,7 +75,7 @@ python3 Adapted_Network.py -net resnet18 --nonuniform
 ## Author
 Name  : Hong-Ming Chiu
 
-Email : hongmingchiu2017@gmail.com
+Email : hmchiu2 [at] illinois.edu
 
 Website : [https://hong-ming.github.io](https://hong-ming.github.io/)
 
